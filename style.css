@@ -5,16 +5,64 @@
 }
 
 body {
-  display: flex;
-  margin: 0 auto;
+  /* display: flex;
   align-items: center;
-  min-height: 100vh;
-  justify-content: center;
-  overflow: hidden;
+  justify-content: center; */
   font-family: "Outfit", sans-serif;
-  /* background-color: hsl(215, 51%, 70%);
-  padding: 40px; */
+  background-color: hsl(217, 54%, 11%);
+  letter-spacing: 0.5px;
 }
 
 .card-container {
+  background-color: hsl(216, 50%, 16%);
+  padding: 10px;
+  border-radius: 1.8%;
+  margin: 0 auto;
+  max-width: 300px;
+  margin-top: 20vh;
+}
+
+.card-container img {
+  border-radius: 1.7%;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.card-container h2 {
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.card-container p {
+  color: hsl(215, 51%, 70%);
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.price-container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px hsl(215, 32%, 27%);
+}
+
+.price,
+.time-left,
+.footer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer {
+  padding-top: 10px;
+}
+
+.footer img {
+  width: 40px;
+  height: auto;
+  border: solid 1px hsl(0, 0%, 100%);
+  border-radius: 50%;
 }
