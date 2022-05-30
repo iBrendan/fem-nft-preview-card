@@ -15,15 +15,17 @@ body {
 
 .card-container {
   background-color: hsl(216, 50%, 16%);
-  padding: 10px;
-  border-radius: 1.8%;
+  padding: 20px;
+  border-radius: 2%;
   margin: 0 auto;
-  max-width: 300px;
-  margin-top: 20vh;
+  max-width: 360px;
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+  overflow: hidden;
 }
 
 .card-container img {
-  border-radius: 1.7%;
+  border-radius: 1.8%;
   margin-bottom: 15px;
   width: 100%;
 }
@@ -57,12 +59,26 @@ body {
 }
 
 .footer {
-  padding-top: 10px;
+  padding-top: 12px;
+  font-weight: 300;
 }
 
 .footer img {
   width: 40px;
   height: auto;
   border: solid 1px hsl(0, 0%, 100%);
-  border-radius: 50%;
+  border-radius: 100%;
+}
+
+.footer span {
+  color: hsl(0, 0%, 100%);
+}
+
+/* .card-container {
+  background-color: aqua;
+} */
+
+.price,
+.time-left img {
+  width: 0px;
 }
