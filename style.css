@@ -5,26 +5,24 @@
 }
 
 body {
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
   font-family: "Outfit", sans-serif;
   background-color: hsl(217, 54%, 11%);
   letter-spacing: 0.5px;
+  font-size: 18px;
 }
 
 .card-container {
   background-color: hsl(216, 50%, 16%);
   padding: 20px;
-  border-radius: 2%;
+  border-radius: 2.2%;
   margin: 0 auto;
-  max-width: 360px;
+  max-width: 340px;
   margin-top: 15vh;
   margin-bottom: 15vh;
   overflow: hidden;
 }
 
-.card-container img {
+.card-container .card-img {
   border-radius: 1.8%;
   margin-bottom: 15px;
   width: 100%;
@@ -39,8 +37,7 @@ body {
 
 .card-container p {
   color: hsl(215, 51%, 70%);
-  margin-bottom: 15px;
-  font-size: 18px;
+  /* font-size: 18px; */
   font-weight: 300;
 }
 
@@ -48,6 +45,8 @@ body {
   display: flex;
   justify-content: space-between;
   border-bottom: solid 1px hsl(215, 32%, 27%);
+  margin-top: 16px;
+  padding-bottom: 16px;
 }
 
 .price,
@@ -55,12 +54,14 @@ body {
 .footer {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 8px;
 }
 
 .footer {
-  padding-top: 12px;
+  padding-top: 16px;
   font-weight: 300;
+  font-size: 16px;
+  padding-bottom: 8px;
 }
 
 .footer img {
@@ -73,12 +74,7 @@ body {
 .footer span {
   color: hsl(0, 0%, 100%);
 }
-
-/* .card-container {
-  background-color: aqua;
+/* 
+.card-container:hover {
+  color: brown;
 } */
-
-.price,
-.time-left img {
-  width: 0px;
-}
